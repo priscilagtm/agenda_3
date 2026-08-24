@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Madeira e Cia Ltda.</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+        
+        <style>
+.campo {
+            display: flex;
+            align-items: center; /* Alinha o rótulo e o campo verticalmente */
+            margin-bottom: 15px; /* Espaçamento entre as linhas */
+        }
+
+        .campo label {
+            width: 120px; /* Largura fixa para os rótulos ficarem alinhados */
+            font-weight: bold;
+        }
+
+        .campo input {
+            flex: 1; /* Faz as caixas de texto ocuparem o restante do espaço */
+            padding: 8px;
+            max-width: 300px; /* Define uma largura máxima padrão */
+        }
+        </style>
+
+    </head>
+    <body>
+     
+        <div class="w3-display-container">
+            <img src="banner.png" alt="madeiras" style="width:100%" class="w3-opacity">
+                <div class="w3-display-middle w3-large" style="text-shadow:1px 1px 0 #444"><h1>Madeireira e Cia Ltda</h1><br>
+            <p>O melhor lugar para comprar madeiras!</p>
+            </div>
+        </div>
+    <div class="w3-panel w3-padding-16">
+        <div class="w3-animate-zoom"><h2>Formulário de compra</h2></div>
+            <form id="form1" name="form1" method="post" action="cadastro.php">
+            <br>
+        <div class="w3-theme-l5">
+        <div class="campo">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite o nome do cliente">
+        </div>        
+        <div class="campo">
+            <label for="idade">Valor da compra</label>
+            <input type="text" name="idade" id="idade" placeholder="Valor da compra">
+        </div>
+        <div class="campo">
+            <label for="profissao">Modo de pagamento</label>
+            <input type="text" name="profissao" id="profissao" placeholder="Modo de pagamento">
+        </div>
+        <div button class="w3-button w3-large">
+        <input name="enviar" type="submit" id="enviar" value="Enviar">
+        </div>
+        
+
+    </div>
+    </body>
+    </html>
+
